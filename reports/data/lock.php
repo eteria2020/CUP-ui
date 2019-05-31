@@ -1,0 +1,7 @@
+<?php
+
+if($_REQUEST["k"]  != "70F2F21227ECA0FA0A60336CF9809053D18EA65A67575E646376E61A570F5A4B"){   // SHA-256["accessoUnivoco!"]
+	die("-1");
+}
+
+?>

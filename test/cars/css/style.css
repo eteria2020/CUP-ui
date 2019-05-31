@@ -1,0 +1,113 @@
+* {
+  margin: 5;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.aziende table {
+  color: #333;
+  font-family: sans-serif;
+  font-size: .8em;
+  font-weight: 300;
+  text-align: center;
+  line-height: 20px;
+  border-spacing: 0;
+  border: 2px solid #337ab7;
+}
+
+h2 {
+  color: #fff;
+  font-weight: bold;
+  background: #337ab7;
+  text-shadow: 1px 1px 1px #000;
+  text-transform:uppercase;
+  richness:inherit;
+}
+
+.aziende thead tr:first-child {
+  background: #337ab7;
+  color: #fff;
+  border: none;
+}
+
+.aziende th {
+  font-weight: bold;
+}
+
+.aziende td {
+	border-right: 1px solid #337ab7;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-bottom: 1px solid #337ab7;
+}
+
+.aziende th:first-child,
+.aziende td:first-child {
+  padding: 0 5px 0 5px;
+  border-left: 1px solid #337ab7;
+}
+
+.aziende thead tr:last-child th {
+  border-bottom: 3px solid #337ab7;
+  border-right: 1px solid #333;
+}
+
+.aziende tbody tr:hover {
+  background-color: #C4D6EA;
+}
+
+.aziende tbody tr:last-child td {
+  border: none;
+  border-right: 1px solid #333;
+  border-left: 1px solid #337ab7;
+  border-bottom: 1px solid #337ab7;
+}
+
+.aziende tbody td {
+  border-bottom: 1px solid #ddd;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-left: 1px solid #337ab7;
+}
+
+.aziende td:last-child {
+  text-align: right;
+  padding-right: 5px;
+}
+
+.edit:hover {
+  color: #337ab7;
+}
+
+.delete:hover {
+  color: #337ab7;
+}
+
+.count table, .count td {
+	border: 1px solid #337ab7;
+}
+
+
+/*TABLE SORTER*/
+.sorter th.header { 
+	color:#FFF;
+	background-color: #337ab7; 
+    background-image: url(../img/small.gif); 
+    cursor: pointer; 
+    font-weight: bold; 
+    background-repeat: no-repeat; 
+    background-position: center left; 
+    padding-left: 20px; 
+    border-right: 1px solid #333; 
+    margin-left: -1px;
+} 
+
+.sorter th.headerSortUp { 
+    background-image: url(../img/small_asc.gif); 
+    background-color: #0098CE; 
+} 
+.sorter th.headerSortDown { 
+    background-image: url(../img/small_desc.gif); 
+    background-color: #0098CE; 
+}

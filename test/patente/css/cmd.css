@@ -1,0 +1,111 @@
+* {
+  margin: 5;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sorter table {
+  color: #333;
+  font-family: sans-serif;
+  font-size: .8em;
+  font-weight: 300;
+  text-align: center;
+  line-height: 20px;
+  border-spacing: 0;
+  border: 2px solid #43A34D;
+}
+
+h2 {
+  color: #fff;
+  font-weight: bold;
+  background: #43A34D;
+  text-shadow: 1px 1px 1px #000;
+  text-transform:uppercase;
+  richness:inherit;
+}
+
+.sorter thead tr:first-child {
+  background: #43A34D;
+  color: #fff;
+  border: none;
+}
+
+.sorter th {
+  font-weight: bold;
+}
+
+.sorter td {
+	border-right: 1px solid #333;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.sorter th:first-child,
+.sorter td:first-child {
+  padding: 0 5px 0 5px;
+}
+
+.sorter thead tr:last-child th {
+  border-bottom: 3px solid #ddd;
+  border-left: 1px solid #43A34D; 
+}
+
+.sorter tbody tr:hover {
+  background-color: #C4D6EA;
+}
+
+.sorter tbody tr:last-child td {
+  border: none;
+  border-right: 1px solid #333;
+  border-left: 1px solid #43A34D;
+  border-bottom: 1px solid #43A34D; 
+}
+
+.sorter tbody td {
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #43A34D; 
+}
+
+.sorter td:last-child {
+  text-align: right;
+  padding-right: 5px;
+  border-left: 1px solid #43A34D; 
+}
+
+.button {
+  color: #696969;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.edit:hover {
+  color: #0098CE;
+}
+
+.delete:hover {
+  color: #0098CE;
+}
+
+/*TABLE SORTER*/
+.sorter th.header { 
+	color:#FFF;
+	background-color: #43A34D; 
+    background-image: url(../img/small.gif); 
+    cursor: pointer; 
+    font-weight: bold; 
+    background-repeat: no-repeat; 
+    background-position: center left; 
+    padding-left: 20px; 
+    border-right: 1px solid #333; 
+    margin-left: -1px;
+} 
+
+.sorter th.headerSortUp { 
+    background-image: url(../img/small_asc.gif); 
+    background-color: #43A34D; 
+} 
+.sorter th.headerSortDown { 
+    background-image: url(../img/small_desc.gif); 
+    background-color: #43A34D; 
+}

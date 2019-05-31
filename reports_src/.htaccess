@@ -1,0 +1,9 @@
+AuthType Basic
+AuthName "Admin"
+AuthUserFile /etc/apache2/htpasswd-ui
+
+Options -Indexes
+
+require valid-user
+require user admin
+

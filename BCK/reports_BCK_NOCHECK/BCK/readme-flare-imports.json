@@ -1,0 +1,13 @@
+[
+{"name":"flare.data.converters.Converters","size":721,"imports":["flare.data.converters.IDataConverter","flare.data.converters.GraphMLConverter","flare.data.converters.JSONConverter","flare.data.converters.DelimitedTextConverter"]},
+{"name":"flare.data.converters.DelimitedTextConverter","size":4294,"imports":["flare.data.DataSet","flare.data.DataUtil","flare.data.DataTable","flare.data.converters.IDataConverter","flare.data.DataSchema","flare.data.DataField"]},
+{"name":"flare.data.converters.GraphMLConverter","size":9800,"imports":["flare.data.DataSet","flare.data.DataUtil","flare.data.DataTable","flare.data.converters.IDataConverter","flare.data.DataSchema","flare.data.DataField"]},
+{"name":"flare.data.converters.IDataConverter","size":1314,"imports":["flare.data.DataSet","flare.data.DataSchema"]},
+{"name":"flare.data.converters.JSONConverter","size":2220,"imports":["flare.data.DataSet","flare.data.DataUtil","flare.data.DataTable","flare.data.converters.IDataConverter","flare.data.DataSchema","flare.data.DataField"]},
+{"name":"flare.data.DataField","size":1759,"imports":["flare.data.DataUtil"]},
+{"name":"flare.data.DataSchema","size":2165,"imports":["flare.data.DataField"]},
+{"name":"flare.data.DataSet","size":586,"imports":["flare.data.DataTable"]},
+{"name":"flare.data.DataSource","size":3331,"imports":["flare.data.converters.IDataConverter","flare.data.converters.Converters","flare.data.DataSchema"]},
+{"name":"flare.data.DataTable","size":772,"imports":["flare.data.DataSchema"]},
+{"name":"flare.data.DataUtil","size":3322,"imports":["flare.data.DataField","flare.data.DataSchema"]}
+]
